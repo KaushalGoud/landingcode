@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color:black;
+    
+
+  }
+  
+  .hero {
+    height: 100vh;
+    position: relative;
+    
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("flat-lay-desktop-with-calculator-succulent.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(3px);
+    z-index: -1;
+  }
+  
+  .start {
+    background-color: #8b0000;
+    text-align: center;
+    padding: 8px;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul a {
+    color: rgb(8, 95, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .navbar ul a:hover {
+    color: rgb(3, 63, 175);
+  }
+  
+  .hero-content {
+    word-spacing: 2px;
+    color: #8b0000;
+    padding: 50px 20px;
+    width: 40%;
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color:wheat
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: bisque;
+  }
+  
+  .btn {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    height: 3rem;
+    width: 11rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    transition: 0.3s;
+  }
+  .btn>a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #700303;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .card-section {
+    position: relative;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1;
+  
+  }
+  
+  .card-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("top-view-work-desk-with-drawing-pad-glasses-with-copy-space\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    filter: blur(3px);
+    z-index: -1;
+  }
+  
+  .card-content h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:bisque;
+  }
+  
+  .card-content p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:white
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 5px;
+    justify-items:center;
+    padding: 20px;
+  }
+  
+  
+  .card {
+    background-color:black;
+    border-radius: 10px;
+    color: tomato;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(218, 230, 5, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(253, 233, 11, 0.888);
+  }
+  
+  .about-content {
+    text-align: center;
+    padding: 20px;
+    color:white;
+    height: 60vh;
+    word-break: break-all;
+    word-spacing: 1px;
+  }
+  .about-content h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:bisque;
+
+  }
+  .about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:rgb(219, 192, 160);
+  }
+  .footer{
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  } 
+  .footer ul li {
+    display: inline;
+  }
+  .footer ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
